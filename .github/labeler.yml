@@ -9,3 +9,6 @@
   - apps/node/*
 package:
   - "package.json"
+  - "apps/react/package.json"
+  - "apps/node/package.json"
+  - "apps/utils/package.json"
