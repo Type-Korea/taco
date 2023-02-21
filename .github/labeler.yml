@@ -1,0 +1,12 @@
+"@taco/react":
+  - apps/react/**/*
+  - apps/react/*
+"@taco/utils":
+  - apps/utils/**/*
+  - apps/utils/*
+"@taco/node":
+  - apps/node/**/*
+  - apps/node/*
+package:
+  - "package.json"
+  - "apps/react/package.json"
