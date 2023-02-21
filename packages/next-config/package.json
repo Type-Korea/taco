@@ -1,0 +1,11 @@
+{
+  "name": "@taco/next-config",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "next.config.js"
+  ],
+  "dependencies": {
+    "next": "^13.1.1"
+  }
+}

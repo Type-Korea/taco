@@ -1,4 +1,1 @@
-module.exports = {
-  reactStrictMode: true,
-  transpilePackages: ["ui"],
-};
+module.exports = require("@taco/next-config/next.config");

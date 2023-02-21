@@ -1,5 +1,8 @@
 {
-  "extends": "tsconfig/nextjs.json",
+  "extends": "@taco/ts-config/index.json",
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "jsxImportSource": "@emotion/react"
+  }
 }
