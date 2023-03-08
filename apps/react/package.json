@@ -1,8 +1,33 @@
 {
   "name": "@taco/react",
   "version": "0.0.0",
+  "description": "react utility types",
+  "keywords": ["react", "typescript", "utility", "type", "types"],
+  "homepage" : "https://github.com/Type-Korea/taco",
+  "bugs": {
+    "url": "https://github.com/Type-Korea/taco/issues",
+    "email": "po4tion0429@gmail.com"
+  },
+  "license": "MIT License",
   "author": {
     "name": "po4tion",
     "email": "po4tion0429@gmail.com"
+  },
+  "repository": {
+    "type" : "github",
+    "url": "https://github.com/Type-Korea/taco/tree/main/apps/react",
+    "directory": "apps/react"
+  },
+  "peerDependencies" : {
+    "react" : "18.2.0",
+    "typescript" : "4.9.5"
+  },
+  "engines": {
+    "node": ">=16.17.0",
+    "vscode": "^1.60.0"
+  },
+  "publishConfig" : {
+    "access": "public",
+    "tag": "latest"
   }
 }
